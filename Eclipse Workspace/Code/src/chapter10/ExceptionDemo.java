@@ -1,6 +1,7 @@
 package chapter10;
 
 //This program creates a custom exception type.
+@SuppressWarnings("serial")
 class MyException extends Exception {
 	private int detail;
 
